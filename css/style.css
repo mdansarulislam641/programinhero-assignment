@@ -1,0 +1,314 @@
+/* ===========================
+          all Common CSS                
+    ============================= */
+    *{
+        margin:0;
+        padding:0;
+    }
+    .container{
+        width:1170px;
+        margin:0 auto;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    /* ===========================
+               end Common CSS                
+        ============================= */
+
+    /* ===========================
+            Header part start               
+        ============================= */
+        #header{
+            background:linear-gradient(rgba(0, 0, 0, 0.6),rgb(0, 0, 0)) , url(../images/donation0.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+        }
+        .benner{
+            display: flex;
+            justify-content: center;
+        }
+        .benner .benner_text{
+            padding-top:150px;
+            padding-bottom:150px;
+            width:600px;
+            text-align: center;
+        }
+        .benner_text h1{
+            font-size:40px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color:#fff;
+            line-height: 53px;
+        } 
+        .benner_text p{
+            font-size:16px;
+            font-weight: 400; 
+            color:#fff;
+            line-height: 24px;
+            padding-bottom: 41px;
+        } 
+        .benner_text a{
+            font-size:14px;
+            font-weight: 700; 
+            color:#fff;
+            padding:15px 50px;
+            background:#e41f0bb8;
+            text-decoration: none;
+            text-transform: uppercase;
+        } 
+    /* ===========================
+            Header part end               
+        ============================= */
+
+
+
+    /* ===========================
+             donate part start               
+        ============================= */
+        #donate_section{
+            padding:100px;
+        }
+        /* .donate_container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        } */
+        .donate_container .donate_title{
+            text-align:center;
+            width:500px;
+            margin:0 auto;
+        }
+        .donate_title h2{
+            font-size:28px;
+            font-weight: 700;
+            color:#000;
+            text-transform: capitalize;
+            padding-bottom:20px;
+        }
+        .donate_title p{
+            font-size:16px;
+            font-weight: 400;
+            color:#000;
+        }
+        .earn_donate_money{
+            display:flex;
+            gap:20px;
+            justify-content: center;
+            padding-top:30px;
+        }
+        .earn_donate_money .item{
+            padding:40px;
+            background: #e8e0ec;
+            text-align: center;
+            display: inline-block;
+        }
+        .earn_donate_money .item p{
+            color:#01010177;
+            font-size:18px;
+            font-weight: 400;
+        }
+        .earn_donate_money .item.active{
+           border:2px solid red;
+           background:rgba(172, 11, 11, 0.32);
+           /*! color: #000; */
+        }
+        .enter_donate_ammount input[type=text]{
+            width: 686px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 0px;
+            border: none;
+            border-bottom: 1px solid #01010178;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 18px;
+            text-transform: capitalize;
+            padding: 10px 0px;
+
+            cursor: pointer;
+        }
+    /* ===========================
+              donate part end                 
+        ============================= */
+
+    /* ===========================
+                donate plan part start                
+        ============================= */
+        #donate_plan{
+            /*! padding:80px 0; */
+            paddint-top: 50px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+        .donate_plan_part{
+            display: flex;
+            gap:30px;
+        }
+        .donate_plan_part .item{
+            width:33.33%;
+            background:antiquewhite;
+            padding: 60px 0;
+            padding-left:20px;
+        }
+        .donate_plan_part .item h3{
+           color:#010101;
+           font-weight: 500;
+           font-size:22px;
+           text-transform: capitalize;
+           padding: 25px 0;
+        }
+        .donate_plan_part .item p{
+           color:#010101db;
+           font-weight: 400;
+           font-size:16px;
+        }
+        .donate_plan_part .item.item_color{
+            background:rgb(186, 233, 233);
+        }
+        .donate_plan_part .item.item_color_two{
+            background:rgba(214, 208, 218, 0.62);
+        }
+    /* ===========================
+                donate plan part end                
+        ============================= */
+
+    /* ===========================
+                about us part end                
+        ============================= */
+        #about_us{padding-bottom: 40px;background: #f1f1;margin-bottom: 48px;padding-top: 32px;}
+        .about_us_main{}
+        .about_us_main .text{
+            text-align: center;
+        }
+        .about_us_main .text h3{
+            font-size: 25px;
+            color: #000;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        .about_us_main .text p{
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+        }
+        .more_details_us .text{
+            width:40%;
+            text-align: justify;
+        }
+        .more_details_us .text h3{
+            color:#000;
+            font-size:22px;
+            font-weight: 600;
+        }
+        .more_details_us {
+            margin-top: 50px;
+            display: flex;
+        }
+        .more_details_us .text p{
+            color:#000;
+            font-size:16px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 35px;
+        }
+        .more_details_us .text a{
+            color:#fff;
+            font-size:14px;
+            font-weight: 400;
+            padding:10px 30px;
+            background:#ff1800d1;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .more_details_us .image{
+            width:60%;
+            text-align: right;
+        }
+        .more_details_us .image img{
+            width:70%;
+            height: 316px;
+            /*! text-align: right; */
+        }
+    /* ===========================
+                about us part end                
+        ============================= */
+
+    /* ===========================
+                feadback part start               
+        ============================= */
+        #feadback{
+            padding:50px;
+        }
+        .feadback_item {
+            text-align: center;
+            width: 587px;
+            margin: 0 auto;
+        }
+        .feadback_item h3{
+            color: #010101;
+            font-weight: 700;
+            font-size: 22px;
+            text-transform: capitalize;
+        }
+        .feadback_item p{
+
+            font-size: 16px;
+            color: #010101;
+            line-height: 21px;
+            padding-top:10px;
+            padding-bottom:50px;
+        }
+        .feadback{
+
+            padding: 60px;
+            background: #ff00002b;
+        }
+        .feadback input[type=email]{
+
+            width: 200px;
+            padding: 5.9px 10px;
+            background: #d0cbc9a1;
+            outline: none;
+            border: none;
+        }
+        .feadback a{
+            
+            text-decoration: none;
+            color: #fff;
+            background: tomato;
+            padding: 5px 20px;
+            margin-left: -4px;
+        }
+    /* ===========================
+                feadback part end             
+        ============================= */
+
+    /* ===========================
+                footer part start                
+        ============================= */
+        #footer{
+            margin-top:50px;
+            background-color: #000000e3;
+            padding: 50px 0;
+        }
+        .main_footer{
+            text-align:center;
+        }
+        .main_footer h3{
+            color:red;
+            font-size:25px;
+            font-weight: 700;
+           
+            text-transform: capitalize;
+        }
+        .main_footer p{
+            color:#fff;
+            font-size:16px;
+            font-weight: 400;
+
+        }
+    /* ===========================
+                footer part end               
+        ============================= */
